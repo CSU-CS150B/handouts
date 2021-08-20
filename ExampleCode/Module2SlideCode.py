@@ -88,3 +88,10 @@ name = get_author_name("Aidan", "Rayson", "LionHeart")
 complex = get_percent_difficult(1000, 999)
 print(get_author_card(name, complex))
 
+
+## in class only code
+coding = "Compiling is Automatic Coding"
+short = coding[11:11]
+print(len(short))
+
+print(coding[:10])
