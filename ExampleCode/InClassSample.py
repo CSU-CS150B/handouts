@@ -1,16 +1,32 @@
 
-# def longerFunc(person, adj, code):
-#     print("Hello " + person)
-#     print("Cryptography is the " + adj)
-#     code = code + code / 2
-#     print("The hidden number is: ", int(code))
-#
-# longerFunc("Valentine", "Bombe", 10.0)
-# print()
-# print()
+    
+def simpleWhile(start, end):
+    counter = 0
+    while start < end:
+        counter -= 1
+        start += 1
+    return counter
 
-###
-def student_score(name, score):
-    return "{},{:.2f}%".format(name, score*100)
 
-print(student_score("Amy", 0.39399))
+print(simpleWhile(12, 12))
+print(simpleWhile(1, 0))
+print(simpleWhile(0, 5))
+
+#---
+i = 0
+while i < 10:
+    print(i)
+    i += 1  # increment i
+
+check = '-'
+while check != 'y':
+    print("I want to build a snowman.")
+    check = input("Do you want to build a snowman? ")[0]
+
+
+i = 10
+answer = ""
+while i > 0:
+    answer += "{},".format(i)
+    i -= 1
+print(answer)
