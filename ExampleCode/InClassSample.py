@@ -1,8 +1,13 @@
 
-    
+def division(dividend, divisor):
+    whole = dividend // divisor  ## todo
+    remainder = dividend % divisor
+    return "Answer: {} with remainder {}".format(whole,remainder)
+
 def simpleWhile(start, end):
     counter = 0
     while start < end:
+        print("TESTING", start, "counter", counter)
         counter -= 1
         start += 1
     return counter
@@ -14,7 +19,7 @@ print(simpleWhile(0, 5))
 
 #---
 i = 0
-while i < 10:
+while i <= 10:
     print(i)
     i += 1  # increment i
 
