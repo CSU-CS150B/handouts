@@ -1,0 +1,6 @@
+name,hp,ac,initiative
+zombie,22,8,8
+zombie,22,8,10
+skeleton,13,13,12
+skeleton,13,12,20
+kobold,5,12,15
